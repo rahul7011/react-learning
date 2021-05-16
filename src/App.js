@@ -3,10 +3,12 @@ import "./App.css";
 import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
 import Message from "./components/Message";
+import Counter from "./components/Counter"
 function App() {
   return (
     <div className="App">
-      <Message></Message>
+      <Counter></Counter>
+      {/* <Message></Message> */}
       {/* <Greet name="super" number="1">
         <p>This is a children props</p>
       </Greet>
