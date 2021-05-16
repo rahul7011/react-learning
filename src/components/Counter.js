@@ -18,6 +18,7 @@ class Counter extends Component {
     //   }
     // );
     // console.log("Asynchronous",this.state.count);
+
     //if we have to call the function numerous time then we have to use this method
     this.setState(
       (prevstate, props) => ({
@@ -30,12 +31,12 @@ class Counter extends Component {
     console.log("Asynchronous", this.state.count);
   }
 
-  incrementfivetimes(){
-      this.increment()
-      this.increment()
-      this.increment()
-      this.increment()
-      this.increment()
+  incrementfivetimes() {
+    this.increment();
+    this.increment();
+    this.increment();
+    this.increment();
+    this.increment();
   }
   render() {
     return (
