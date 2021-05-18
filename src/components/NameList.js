@@ -23,7 +23,7 @@ function NameList() {
     },
   ];
 
-  let personlist=persons.map(person=><Person person={person}></Person>)
+  let personlist=persons.map(person=><Person key={person.id} person={person}></Person>)
   return <div>{personlist}</div>
 }
 
