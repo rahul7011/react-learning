@@ -12,11 +12,12 @@ import UserGreetings from "./components/UserGreetings";
 import NameList from "./components/NameList";
 import StyleSheet from "./components/StyleSheet";
 import Form from "./components/Form";
+import LifeCycleA from "./components/LifeCycleA";
 function App() {
   return (
     <div className="App">
-
-    <Form></Form>
+    <LifeCycleA></LifeCycleA>
+    {/* <Form></Form> */}
 
     {/* <StyleSheet primary="primary" ></StyleSheet> */}
 
