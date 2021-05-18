@@ -1,0 +1,11 @@
+.primary{
+    margin: 20px;
+    color: aquamarine;
+    font-size: 50px;
+    font-family:monospace;
+    text-transform: capitalize;
+}
+
+.bg-color{
+    background-color: black;
+}
