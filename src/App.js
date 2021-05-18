@@ -7,13 +7,16 @@ import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import EventBind from "./components/EventBind";
+import ParentComponent from "./components/ParentComponent";
 function App() {
   return (
     <div className="App">
 
-      <EventBind></EventBind>
+    <ParentComponent></ParentComponent>
 
-    {/* <FunctionClick></FunctionClick>
+      {/* <EventBind></EventBind> */}
+
+      {/* <FunctionClick></FunctionClick>
     <ClassClick></ClassClick> */}
 
       {/* <Counter></Counter> */}
@@ -24,10 +27,10 @@ function App() {
         <p>This is a children props</p>
       </Greet> */}
       {/* <Greet name="Rahul" number="2"> */}
-        {/* <p>Another one</p> */}
+      {/* <p>Another one</p> */}
       {/* </Greet> */}
       {/* <Greet name="React-Django" number="3"> */}
-        {/* <p>This is another children props</p> */}
+      {/* <p>This is another children props</p> */}
       {/* </Greet> */}
 
       {/* <Welcome name="super" number="1">
