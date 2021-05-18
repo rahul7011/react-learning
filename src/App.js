@@ -13,10 +13,12 @@ import NameList from "./components/NameList";
 import StyleSheet from "./components/StyleSheet";
 import Form from "./components/Form";
 import LifeCycleA from "./components/LifeCycleA";
+import Fragments from "./components/Fragments";
 function App() {
   return (
     <div className="App">
-    <LifeCycleA></LifeCycleA>
+    <Fragments></Fragments>
+    {/* <LifeCycleA></LifeCycleA> */}
     {/* <Form></Form> */}
 
     {/* <StyleSheet primary="primary" ></StyleSheet> */}
