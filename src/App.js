@@ -14,10 +14,14 @@ import StyleSheet from "./components/StyleSheet";
 import Form from "./components/Form";
 import LifeCycleA from "./components/LifeCycleA";
 import Fragments from "./components/Fragments";
+import RefsDemo from "./components/RefsDemo";
+import FRparent from "./components/FRparent";
 function App() {
   return (
     <div className="App">
-    <Fragments></Fragments>
+    <FRparent></FRparent>
+    {/* <RefsDemo></RefsDemo> */}
+    {/* <Fragments></Fragments> */}
     {/* <LifeCycleA></LifeCycleA> */}
     {/* <Form></Form> */}
 
